@@ -1,0 +1,47 @@
+/* 
+    Author: chris
+*/
+
+
+#about-text {
+	-fx-text-fill: #ffffff;
+    -fx-font-family: Courier;
+    -fx-font-size: 18px;
+}
+
+#about-textB {
+	-fx-text-fill: black;
+    -fx-font-family: Courier;
+    -fx-font-size: 12px;
+}
+
+#bg-img {
+    -fx-background-image: url("../about-bg.png");
+    -fx-background-repeat: stretch; 
+    -fx-background-position: center center;
+    -fx-background-size: 100%;
+}
+
+.button {
+    -fx-padding: 8 40 15 40;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 30;
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #5f8f85 0%, #4b7970 100%),
+        #8fc1b7,
+        #8fc1b7,
+        radial-gradient(center 50% 50%, radius 100%, #d8ebe7, #8fc1b7);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-size: 1.0em;
+}
+.button:hover {
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #5f8f85 0%, #4b7970 100%),
+        #4b7970,
+        #d8ebe7,
+        radial-gradient(center 50% 50%, radius 100%, #d8ebe7, #d8ebe7);
+}
+.button:pressed {
+    -fx-padding: 10 40 13 40;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}

@@ -1,0 +1,234 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 7 oct. 2018, 17:53:46
+    Author     : adele
+*/
+
+
+.root{
+    -fx-font-size: 18 pt;
+    -fx-font-family:'Aclonica';font-size: 22px;
+
+    -fx-base: #85bea3;
+    /*    linear-gradient(#f2f2f2, #d6d6d6),
+        linear-gradient(#fcfcfc 0%, #d9d9d9 20%, #cbb9c8 100%),
+        linear-gradient(#dddddd 0%, #f6f6f6 50%);*/
+
+
+
+    -fx-spacing: 20;
+    /*
+        -fx-background-color: 
+            linear-gradient(#f2f2f2, #d6d6d6),
+            linear-gradient(#fcfcfc 0%, #d9d9d9 20%, #d6d6d6 100%),
+            linear-gradient(#dddddd 0%, #f6f6f6 50%);*/
+    -fx-background-radius: 8,7,6;
+    -fx-background-insets: 0,1,2;
+    -fx-text-fill: #aac0ca ;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+
+}
+
+.root2{
+    -fx-font-size: 18 pt;
+    -fx-font-family:'Arial';font-size: 22px;
+
+
+    -fx-base:   #1e324d ;
+    /*    linear-gradient(#f2f2f2, #d6d6d6),
+        linear-gradient(#fcfcfc 0%, #d9d9d9 20%, #cbb9c8 100%),
+        linear-gradient(#dddddd 0%, #f6f6f6 50%);*/
+
+
+
+    -fx-spacing: 20;
+    /*
+        -fx-background-color: 
+            linear-gradient(#f2f2f2, #d6d6d6),
+            linear-gradient(#fcfcfc 0%, #d9d9d9 20%, #d6d6d6 100%),
+            linear-gradient(#dddddd 0%, #f6f6f6 50%);*/
+    -fx-background-radius: 8,7,6;
+    -fx-background-insets: 0,1,2;
+    -fx-text-fill:  #aac0ca ;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+
+}
+
+
+.slider .track {
+    -fx-pref-height:20;
+}
+
+.slider:vertical .track {
+    -fx-pref-width:20;
+}
+
+.slider .thumb {
+    -fx-pref-height: 30;
+    -fx-pref-width: 30;
+}
+
+
+.lab{
+    -fx-font-size: 24 pt;
+    -fx-font-family:'Aclonica';
+    -fx-text-fill: #c7d3dc;
+    -fx-content-display: top;
+
+}
+
+.lab2{
+    -fx-font-size: 16 pt;
+    -fx-font-family:'Aclonica';
+    -fx-text-fill: #c7d3dc;
+    -fx-content-display: top;
+
+}
+.radioButton{
+    -fx-base: #deeaef;
+}
+.button{
+    -fx-background-color: 
+        linear-gradient(#f2f2f2, #d6d6d6),
+        linear-gradient(#fcfcfc 0%, #d9d9d9 20%, #cbb9c8 100%),
+        linear-gradient(#dddddd 0%, #f6f6f6 50%);
+    -fx-background-radius: 8,7,6;
+    -fx-background-insets: 0,1,2;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    /*    -fx-text-fill: whitesmoke;*/
+    /*    -fx-text-inner-color: #d5e9ee;
+        -fx-border-color: #6977b3;
+        -fx-border-radius: 5;
+        -fx-border-background: 5;
+        -fx-background-color: #6977b3;
+        -fx-background-color: linear-gradient(#a2b8ef, #6f93f0);*/
+
+}
+.button:hover {
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%,  #fbfffe 0%,  #ccdad8 100%),
+        #4b7970,
+        #d8ebe7,
+        radial-gradient(center 50% 50%, radius 100%, #d8ebe7, #d8ebe7);
+}
+
+.grid1 {
+
+    -fx-alignment: CENTER;
+
+
+
+
+
+}
+.grid2 {
+
+    -fx-alignment: CENTER;
+
+
+
+
+}
+
+.cell{
+    -fx-border-color:  #6bd8b4 ;
+
+
+
+
+}
+
+.hbox {
+    -fx-background-color: 
+        rgba(0,0,0,0.08),
+        linear-gradient(#5a61af, #51536d),
+        linear-gradient(#e4fbff 0%,#c6bdf0 10%, #a5d3fb 50%, #88c6fb 51%, #d5faff 100%);
+
+    -fx-background-color: 
+        rgba(0,0,0,0.08),
+        linear-gradient(#c8e7d2, #61ada1),
+        linear-gradient(#c8e7d2 0%,#89cac0 10%, #61ada1 50%, #61ada1 51%, #d5faff 100%);
+    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-background-radius: 5,5,4;
+    -fx-padding: 3 30 3 30;
+    -fx-text-fill: #242d35;
+    -fx-font-size: 14px;
+
+
+    -fx-padding: 20;
+    -fx-alignment: CENTER_RIGHT;
+    -fx-spacing: 10;
+
+    -fx-vgap: 5;
+    -fx-hgap: 5;
+
+
+}
+
+.hbox2 {
+    -fx-background-color: 
+        rgba(0,0,0,0.08),
+        linear-gradient(#5a61af, #51536d),
+        linear-gradient(#dce3ed 0%,#86a8c3 10%, #32458a 50%, #32468b 51%, #111b24 100%);
+
+    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-background-radius: 5,5,4;
+    -fx-padding: 3 30 3 30;
+    -fx-text-fill: #242d35;
+    -fx-font-size: 14px;
+
+
+    -fx-padding: 20;
+    -fx-alignment: CENTER_RIGHT;
+    -fx-spacing: 10;
+
+    -fx-vgap: 5;
+    -fx-hgap: 5;
+
+
+}
+
+.vbox {
+    -fx-background-color: 
+        rgba(0,0,0,0.08),
+        linear-gradient(#c8e7d2, #61ada1),
+        linear-gradient(#c8e7d2 0%,#89cac0 10%, #61ada1 50%, #61ada1 51%, #d5faff 100%);
+
+
+    /*    -fx-background-color: 
+            rgba(0,0,0,0.08),
+            linear-gradient(#5a61af, #51536d),
+            linear-gradient(#e4fbff 0%,#cee6fb 10%, #a5d3fb 50%, #88c6fb 51%, #d5faff 100%);*/
+    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-background-radius: 5,5,4;
+    -fx-padding: 3 30 3 30;
+    -fx-text-fill: #242d35;
+    -fx-font-size: 14px;
+
+
+    -fx-padding: 20;
+    -fx-alignment: CENTER_LEFT;
+    -fx-spacing: 20;
+
+    -fx-vgap: 5;
+    -fx-hgap: 5;
+
+}
+#bg-img {
+    -fx-background-image: url("../about-bg.png");
+    -fx-background-repeat: stretch; 
+    -fx-background-position: center center;
+    -fx-background-size: 100%;
+}
+
+#press-key {
+    -fx-background-image: url("../press-any-key.png");
+    -fx-background-repeat: stretch; 
+    -fx-background-position: center center;
+    -fx-background-size: 100%;
+}
